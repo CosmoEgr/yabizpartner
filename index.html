@@ -3,80 +3,140 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Партнёр Яндекс Бизнес</title>
-  <meta name="description" content="Помогаем бизнесу подключиться к Яндекс Бизнес и эффективно использовать его возможности.">
+  <title>Яндекс Бизнес — Партнёрский запуск</title>
+  <meta name="description" content="Продвижение бизнеса на всех площадках Яндекса. Подключим Яндекс Бизнес под ключ: регистрация, модерация, аналитика и отзывы.">
   <style>
+    :root {
+      --accent: #ffe600;
+      --bg: #ffffff;
+      --text: #1a1a1a;
+      --subtle: #f6f6f6;
+      --gray: #888;
+    }
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 0;
-      background: #f9f9f9;
-      color: #333;
+      font-family: 'Helvetica Neue', sans-serif;
+      background: var(--bg);
+      color: var(--text);
     }
-    header, footer {
-      background-color: #ffffff;
-      padding: 20px;
+    header {
+      background: var(--bg);
+      padding: 100px 20px 60px;
       text-align: center;
-      box-shadow: 0 1px 5px rgba(0,0,0,0.1);
     }
-    main {
-      padding: 40px 20px;
-      max-width: 800px;
-      margin: auto;
+    header h1 {
+      font-size: 44px;
+      font-weight: 700;
+      margin: 0 auto 20px;
+      max-width: 700px;
     }
-    h1 {
-      font-size: 28px;
+    header p {
+      font-size: 20px;
+      color: var(--gray);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    section {
+      padding: 80px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    h2 {
+      font-size: 32px;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 40px;
+    }
+    .card {
+      background: var(--subtle);
+      padding: 30px;
+      border-radius: 12px;
+      text-align: center;
+    }
+    .card img {
+      width: 56px;
       margin-bottom: 20px;
     }
-    p {
-      font-size: 18px;
-      line-height: 1.6;
+    .card p {
+      font-size: 17px;
+      line-height: 1.5;
     }
     .cta {
-      display: block;
-      margin: 30px auto;
       text-align: center;
+      padding: 80px 20px;
     }
     .cta a {
-      text-decoration: none;
-      background: #ffdb4d;
+      background: var(--accent);
       color: #000;
-      padding: 12px 24px;
-      border-radius: 6px;
       font-weight: bold;
+      padding: 18px 40px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 18px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #f3f3f3;
+      padding: 40px 20px;
+      text-align: center;
+      font-size: 14px;
+      color: #666;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h2>Ваш проводник в мир Яндекс Бизнес</h2>
-  </header>
 
-  <main>
-    <h1>Подключение к Яндекс Бизнес</h1>
-    <p>
-      Мы помогаем компаниям настроить и эффективно использовать Яндекс Бизнес — единый кабинет для продвижения, аналитики и взаимодействия с клиентами. Если вы хотите, чтобы ваш бизнес был заметен в Яндексе, мы поможем вам запустить всё быстро и грамотно.
-    </p>
+<header>
+  <h1>Ваш бизнес на Яндексе — заметен, настроен и готов к заявкам</h1>
+  <p>Помогаем компаниям продвигаться через Яндекс Бизнес: карты, поиск, навигатор, Дзен, Метрика и чат с клиентами</p>
+</header>
 
-    <p>
-      Вы получите:
-      <ul>
-        <li>Регистрацию и настройку профиля</li>
-        <li>Оптимизацию карточки компании</li>
-        <li>Консультации по продвижению</li>
-      </ul>
-    </p>
-
-    <div class="cta">
-      <a href="#">Оставить заявку</a>
+<section>
+  <h2>Что мы делаем</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/5973/5973823.png" alt="Профиль">
+      <p>Создадим и оформим карточку компании: контакты, фото, режим работы, сайт</p>
     </div>
-  </main>
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/5953/5953763.png" alt="Интеграции">
+      <p>Подключим все каналы связи: Яндекс Чат, Telegram, соцсети, кнопки действий</p>
+    </div>
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/4201/4201973.png" alt="Автоматизация">
+      <p>Настроим аналитику, сбор отзывов, автообновление и интеграции</p>
+    </div>
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/1828/1828911.png" alt="Гарантия">
+      <p>Пройдём модерацию, устраним ошибки, доведём до результата</p>
+    </div>
+  </div>
+</section>
 
-  <footer>
-    <p>&copy; 2025 Партнёр Яндекс Бизнес. Не является частью Группы компаний Яндекс.</p>
-  </footer>
+<section>
+  <h2>Что вы получите</h2>
+  <ul style="max-width: 700px; margin: 0 auto; font-size: 18px; line-height: 1.8;">
+    <li>Ваш бизнес появится в поиске, на картах, в навигаторе, Дзене</li>
+    <li>Клиенты смогут написать вам прямо из Яндекса</li>
+    <li>Вы будете видеть аналитику: клики, звонки, переходы</li>
+    <li>Повысите доверие через отзывы, фото, рейтинг</li>
+  </ul>
+</section>
 
-  <!-- Код подтверждения Яндекс можно вставить сюда -->
-  <!-- <script>/* ijvhxp87vdxll1f1 */</script> -->
+<section class="cta">
+  <h2>Готовы стартовать?</h2>
+  <a href="#">Оставить заявку</a>
+</section>
+
+<footer>
+  <p>Мы не являемся частью Группы компаний Яндекс. Работаем как независимый партнёр и помогаем использовать сервисы Яндекса грамотно.</p>
+  <p>&copy; 2025 Яндекс Бизнес Партнёр</p>
+</footer>
+
+<!-- <script>код верификации Яндекса</script> -->
 </body>
 </html>
